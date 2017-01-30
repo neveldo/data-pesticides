@@ -1,0 +1,102 @@
+@prefix dp: <http://www.data-pesticides.xyz/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.data-pesticides.xyz/ontology/1.0> rdf:type owl:Ontology ;
+  <http://purl.org/dc/terms/creator> "Vincent Brouté" ;
+  <http://purl.org/dc/elements/1.1/description> "Ontology about pesticides data"@en .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+dp:relatedDepartment rdf:type owl:ObjectProperty ;
+  rdfs:label "Related department"@en ;
+  rdfs:range dp:Department .
+
+dp:relatedFamily rdf:type owl:ObjectProperty ;
+  rdfs:label "Related pesticide family"@en ;
+  rdfs:range dp:PesticideFamily .
+
+dp:relatedRole rdf:type owl:ObjectProperty ;
+  rdfs:label "Related pesticide role"@en ;
+  rdfs:range dp:PesticideRole .
+
+dp:relatedPesticide rdf:type owl:ObjectProperty ;
+  rdfs:label "Related pesticide"@en ;
+  rdfs:range dp:Pesticide .
+
+dp:relatedStation rdf:type owl:ObjectProperty ;
+  rdfs:label "Related station"@en ;
+  rdfs:range dp:Station .
+
+#################################################################
+#    Data properties
+#################################################################
+
+dp:secondaryLabel rdf:type owl:DatatypeProperty ;
+  rdfs:label "Secondary label"@en .
+
+dp:altitude rdf:type owl:DatatypeProperty ;
+  rdfs:label "Altitude"@en .
+
+dp:latitude rdf:type owl:DatatypeProperty ;
+  rdfs:label "Latitude"@en .
+
+dp:longitude rdf:type owl:DatatypeProperty ;
+  rdfs:label "Longitude"@en .
+
+dp:insee rdf:type owl:DatatypeProperty ;
+  rdfs:label "Insee code"@en .
+
+dp:code rdf:type owl:DatatypeProperty ;
+  rdfs:label "Pesticide code"@en .
+
+dp:endOfUsageDate rdf:type owl:DatatypeProperty ;
+  rdfs:label "End of usage date for a pesticide"@en .
+
+dp:normalValue rdf:type owl:DatatypeProperty ;
+  rdfs:label "Normal value for the concentration of a specific pesticide"@en .
+
+dp:status rdf:type owl:DatatypeProperty ;
+  rdfs:label "Peticide status"@en .
+
+dp:analyzesCount rdf:type owl:DatatypeProperty ;
+  rdfs:label "Analyses count"@en .
+
+dp:totalConcentration rdf:type owl:DatatypeProperty ;
+  rdfs:label "Total concentration"@en .
+
+dp:averageConcentration rdf:type owl:DatatypeProperty ;
+  rdfs:label "Average concentration"@en .
+
+dp:year rdf:type owl:DatatypeProperty ;
+  rdfs:label "Statement year"@en .
+
+#################################################################
+#    Classes
+#################################################################
+
+dp:Station rdf:type owl:Class ;
+  rdfs:label "Station"@en .
+
+dp:Pesticide rdf:type owl:Class ;
+  rdfs:label "Pesticide"@en .
+
+dp:PesticideFamily rdf:type owl:Class ;
+  rdfs:label "Pesticide family"@en .
+
+dp:PesticideRole rdf:type owl:Class ;
+  rdfs:label "Pesticide role"@en .
+
+dp:Department rdf:type owl:Class ;
+  rdfs:label "Department"@en .
+
+dp:StationStatement rdf:type owl:Class ;
+  rdfs:label "Station statement"@en .
+
+dp:StationStatementTotal rdf:type owl:Class ;
+  rdfs:label "Station statement total"@en .

@@ -1,0 +1,23 @@
+{
+    "name": "neveldo/data-pesticides",
+    "description" : "Data-pesticides is a web application that highlights pesticides concentrations within water.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0",
+        "silex/silex": "~2.0",
+        "symfony/console": "^3.2",
+        "cocur/slugify": "^2.3",
+        "symfony/cache": "^3.2",
+        "proj4php/proj4php": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Neveldo\\DataPesticides\\": "src/DataPesticides/"
+        }
+    },
+    "minimum-stability" : "stable"
+}

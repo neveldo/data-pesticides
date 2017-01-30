@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * Run symfony commands
+ */
+require __DIR__ . '/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Neveldo\DataPesticides\Command\LoadDatasetCommand;
+use Neveldo\DataPesticides\Command\WarmupApiCommand;
+
+set_time_limit(0);
+
+$application = new Application();
+
+$application->add(new LoadDatasetCommand(realpath(__DIR__ . '/..')));
+$application->add(new WarmupApiCommand(realpath(__DIR__ . '/..')));
+
+$application->run();
