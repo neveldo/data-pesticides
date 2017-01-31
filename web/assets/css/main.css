@@ -8,6 +8,7 @@ body {
     background-color: #F5F5F5;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 .col-main {
@@ -210,7 +211,7 @@ div.sliderContainer {
 
 .mapael .map {
     position: relative;
-    margin: 10px;
+    margin: 15px;
 }
 
 .mapael .mapTooltip {
