@@ -2,7 +2,7 @@
 
 Data-Pesticides is a web application based on [Silex](http://silex.sensiolabs.org/) PHP microframework that provides a full-featured data-vizualisation about pesticides concentrations in France. The web application is available online : [https://www.data-pesticides.fr](https://www.data-pesticides.fr). It has been created in response to a [contest](http://www.developpement-durable.gouv.fr/Concours-de-data-visualisation-sur.html) launched by the [French ministry of ecology, energy and the sea](http://www.developpement-durable.gouv.fr/).
 
-![data-pesticides](doc/screenshot.jpg)
+![data-pesticides](web/assets/images/social-share.jpg.jpg)
 
 ### Application requirements :
 

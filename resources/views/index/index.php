@@ -13,13 +13,13 @@
     <meta property="og:title" content="<?= $data['title'] ?>"/>
     <meta property="og:description"
           content="Dataviz pollution : Découvrez la carte des pesticides en eaux souterraines en France"/>
-    <meta property="og:image" content="https://www.data-pesticides.fr/assets/images/share-image.jpg"/>
+    <meta property="og:image" content="https://www.data-pesticides.fr/assets/images/social-share.jpg"/>
 
     <meta property="twitter:site" content="Data-pesticides.fr"/>
     <meta property="twitter:card" content="summary_large_image"/>
     <meta property="twitter:title"
           content="Dataviz pollution : Découvrez la carte des pesticides en eaux souterraines en France"/>
-    <meta property="twitter:image" content="https://www.data-pesticides.fr/assets/images/share-image.jpg"/>
+    <meta property="twitter:image" content="https://www.data-pesticides.fr/assets/images/social-share.jpg"/>
 
     <link rel="icon" href="favicon.ico"/>
 
