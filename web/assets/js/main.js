@@ -780,7 +780,11 @@ $(function () {
 							stationsCountByDepartments[currentEntities[id]['relatedDepartment']] = 0;
 						}
 
-						if (!optimizedMode || stationsCountByDepartments[currentEntities[id]['relatedDepartment']] <= 11) {
+						if (!optimizedMode
+							|| stationsCountByDepartments[currentEntities[id]['relatedDepartment']] <= 11
+							|| id === currentMetadata[currentFamily][currentYear]['minEntity']
+							|| id === currentMetadata[currentFamily][currentYear]['maxEntity']
+						) {
 							elementOptions.latitude = currentEntities[id]['latitude'];
 							elementOptions.longitude = currentEntities[id]['longitude'];
 							newMapOptions.plots[id] = elementOptions;
