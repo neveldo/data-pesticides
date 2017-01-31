@@ -800,6 +800,7 @@ $(function () {
 			// If there is no data with the current settings, load an empty map
 			if (!hasData) {
 				$(".mapcontainer").mapael(newMapOptions);
+				$('.loader-container').css('display', 'none');
 				return;
 			}
 
