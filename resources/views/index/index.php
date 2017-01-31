@@ -324,13 +324,6 @@
                 </div>
 
                 <div class="center main-title">
-
-                    <div class="spinner">
-                        <div class="bounce1"></div>
-                        <div class="bounce2"></div>
-                        <div class="bounce3"></div>
-                    </div>
-
                     <h2><span class="mapTitle">Concentration totale en pesticides par station de mesures</span></h2>
 
                     <div class="share-buttons">
