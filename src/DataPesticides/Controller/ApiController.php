@@ -112,8 +112,6 @@ class ApiController extends Controller
 
         $data = $this->endpointClient->query($query);
         $data = $this->csvToCollection($data, false);
-        $data = array_column($data, 0);
-
         return json_encode($data);
     }
 
@@ -122,7 +120,7 @@ class ApiController extends Controller
      * @param array $options
      * @return string
      */
-    protected function apiGetStations(arra $options)
+    protected function apiGetStations(array $options)
     {
         $query =
             "SELECT 
@@ -247,7 +245,7 @@ class ApiController extends Controller
             GROUP BY ?station";
 
         $data = $this->endpointClient->query($query);
-        $data = $this->csvToCollection($data, true);
+        $data = $this->csvToCollection($data, true, true);
         $metadata = $this->getMetadata($data, ['allFamilies']);
 
         return json_encode(['metadata' => $metadata, 'data' => $data]);
@@ -468,7 +466,7 @@ class ApiController extends Controller
             GROUP BY ?station";
 
         $data = $this->endpointClient->query($query);
-        $data = $this->csvToCollection($data, true);
+        $data = $this->csvToCollection($data, true, true);
 
         $metadata = $this->getMetadata($data, array_keys(json_decode($this->apiGetFamilies([]), true)));
 
@@ -835,7 +833,7 @@ class ApiController extends Controller
                 if ($json) {
                     $data[$line[0]] = json_decode($line[1], true);
                 } else {
-                    $data[$line[0]] = $line[1];
+                    $data[] = $line[0];
                 }
             }
 
