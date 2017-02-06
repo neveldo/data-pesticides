@@ -70,7 +70,7 @@
                     d'autant plus importante que certaines d'entres-elles sont utilisées pour la <b>production d'eau
                         potable</b>.
                     Cette <b>data-visualisation</b> vous permet d'appréhender les tendances des milliers de données
-                    receuillies chaque année par les stations de mesures.
+                    recueillies chaque année par les stations de mesures.
 
                 </p>
 
@@ -400,7 +400,7 @@
     <p>A partir de 2010, les échantillons d’eau analysés sont issus de prélèvements réalisés dans les stations de
         mesure appartenant au réseau de surveillance RCS/RCO. Avant 2010 (campagnes 2007-2009), les échantillons
         d'eau analysés sont issus de prélèvements réalisés dans un réseau de stations plus important en nombre, ces
-        stations ne faisant pas forcément du réseau du RCO/RCS.
+        stations ne faisant pas forcément partie du réseau du RCO/RCS.
     </p>
 </script>
 
