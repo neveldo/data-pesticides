@@ -314,7 +314,7 @@
                             des nappes est d'autant plus importante que certaines d'entres-elles sont utilisées pour la
                             <b>production d'eau potable</b>.
                             Cette <b>data-visualisation</b> vous permet d'appréhender les tendances des milliers de
-                            données receuillies chaque année par les stations de mesures.
+                            données recueillies chaque année par les stations de mesures.
 
                         </p>
                         <p class="center">
