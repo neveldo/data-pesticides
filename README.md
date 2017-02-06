@@ -6,11 +6,14 @@ Data-Pesticides is a web application based on [Silex](http://silex.sensiolabs.or
 
 ### Application requirements :
 
+- A web server (such as Nginx or Apache)
 - PHP 5.6+
 - composer
 - A RDF Triplestore (for instance, you can use [Blazegraph](https://github.com/blazegraph/database/releases))
 
 ### Installation :
+
+All the data required by the application are already bundled within the package `datasets/source.tar.gz`.
 
 - Install the latest version of Blazegraph, launch it through the command `java -server -Xmx4g -jar blazegraph.jar`, and create a new namespace named 'datapesticides' (with the mode option set to 'quads'). That's all for the database part.
 - Make sure the directories var/cache/ and datasets/ are writeable
@@ -18,8 +21,6 @@ Data-Pesticides is a web application based on [Silex](http://silex.sensiolabs.or
 - Set your own application parameters into the configuration file `app/config/config.php`. Basically, you will need to update the host value with your own local host you have set in your webserver for running the application.
 - run the command `install.sh` in order to launch `composer install`, datasets imports and API warm up. It can take a while depending on your computer performance
 - Then, go to the application homepage and enjoy !
-
-
 
 ### Import new dataset
 
