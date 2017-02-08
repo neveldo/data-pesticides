@@ -190,7 +190,7 @@
 
                 <p>Cette data-visualisation a été créée par <a href="https://twitter.com/VincentBroute" target="_blank">Vincent
                         Brouté</a> dans le cadre d'un <a
-                        href="http://www.developpement-durable.gouv.fr/Concours-de-data-visualisation-sur.html"
+                        href="http://www.developpement-durable.gouv.fr/concours-data-visualisation-sur-pesticides-dans-eaux-souterraines-0"
                         target="_blank">concours</a> organisé par le <a href="http://www.developpement-durable.gouv.fr/"
                                                                         target="_blank">ministère de l'environnement, de
                         l'énergie et de la mer.</a>
@@ -355,7 +355,7 @@
                 <p class="center">Cette data-visualisation a été créée par <a href="https://twitter.com/VincentBroute"
                                                                               target="_blank">Vincent Brouté</a> dans le
                     cadre d'un <a
-                        href="http://www.developpement-durable.gouv.fr/Concours-de-data-visualisation-sur.html"
+                        href="http://www.developpement-durable.gouv.fr/concours-data-visualisation-sur-pesticides-dans-eaux-souterraines-0"
                         target="_blank">concours</a> organisé par le <a href="http://www.developpement-durable.gouv.fr/"
                                                                         target="_blank">ministère de l'environnement, de
                         l'énergie et de la mer.</a></p>
