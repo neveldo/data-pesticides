@@ -206,7 +206,7 @@
                                                            target="_blank">Luis Prado</a> et <a
                         href="https://thenounproject.com/term/chemical/73158/" target="_blank">iconsmind.com</a>.
                     Les informations de cette page proviennent de différents documents : <a
-                        href="http://www.developpement-durable.gouv.fr/IMG/pdf/Reglement_Concours_Datavisualisation_Pesticides_dans_eaux_souterraines_15_12_2016_VF.pdf"
+                        href="http://www.developpement-durable.gouv.fr/sites/default/files/Reglement_Concours_Datavisualisation_Pesticides_dans_eaux_souterraines_15_12_2016_VF.pdf"
                         target="_blank">Concours de data-visualisation des données "pesticides dans les eaux
                         souterraines"</a>, <a href="http://www.brgm.fr/sites/default/files/enjeux_geosciences_08.pdf"
                                               target="_blank">Pesticides dans les eaux souterraines : comprendre pour
